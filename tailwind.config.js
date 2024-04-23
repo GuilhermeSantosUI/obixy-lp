@@ -50,8 +50,8 @@ module.exports = {
         },
       },
       animation: {
-        marquee: 'marquee 20s linear infinite',
-        marquee2: 'marquee2 20s linear infinite',
+        marquee: 'marquee 10s linear infinite',
+        marquee2: 'marquee2 10s linear infinite',
         slidein300: 'slidein 1s ease 300ms forwards',
         slidein500: 'slidein 1s ease 500ms forwards',
         slidein700: 'slidein 1s ease 700ms forwards',
