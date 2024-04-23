@@ -26,6 +26,10 @@ module.exports = {
           '0%': { transform: 'translateX(100%)' },
           '100%': { transform: 'translateX(0%)' },
         },
+        crumple: {
+          '0%': { 'letter-spacing': 'normal' },
+          '100%': { 'letter-spacing': '-0.05em' },
+        },
         slidein: {
           from: {
             opacity: '0',
@@ -46,11 +50,12 @@ module.exports = {
         },
       },
       animation: {
-        marquee: 'marquee 25s linear infinite',
-        marquee2: 'marquee2 25s linear infinite',
+        marquee: 'marquee 20s linear infinite',
+        marquee2: 'marquee2 20s linear infinite',
         slidein300: 'slidein 1s ease 300ms forwards',
         slidein500: 'slidein 1s ease 500ms forwards',
         slidein700: 'slidein 1s ease 700ms forwards',
+        crumpleafter: 'crumple 1s ease 2s forwards',
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
       },
