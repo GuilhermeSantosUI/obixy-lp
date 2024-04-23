@@ -1,7 +1,7 @@
 export function App() {
   return (
     <div className="w-full relative overflow-x-hidden">
-      <header className="container flex justify-between py-8">
+      <header className="animate-slidein300 opacity-0 container flex justify-between py-8">
         <svg
           width="117"
           height="47"
@@ -50,7 +50,7 @@ export function App() {
         </div>
       </header>
 
-      <div className="container h-[60vh] flex flex-col items-start gap-16 mt-10">
+      <div className="animate-slidein500 opacity-0 container h-[60vh] flex flex-col items-start gap-16 mt-10">
         <div className="flex items-center gap-24">
           <div className="text-8xl text-white">
             Criada para <span className="italic">encurtar</span> o{' '}
@@ -64,62 +64,70 @@ export function App() {
           </div>
         </div>
 
-        <button className="px-8 py-4 bg-[#2C3BFF] rounded-2xl flex-col justify-center items-center gap-2.5 inline-flex text-white text-base font-normal">
+        <button className="animate-slidein700 opacity-0 px-8 py-4 bg-[#2C3BFF] rounded-2xl flex-col justify-center items-center gap-2.5 inline-flex text-white text-base font-normal">
           Quero ter um site foda também!
         </button>
       </div>
 
-      <div className="bg-[#BEFF6B] w-[110%] relative right-2 flex items-center overflow-x-hidden rotate-3">
-        <div className="py-4 animate-marquee whitespace-nowrap">
-          <span className="text-3xl text-gray-800 italic mx-4">
-            Frontend Development
-          </span>
-          <span className="text-3xl text-gray-800 font-black mx-4">
-            UI Design
-          </span>
-          <span className="text-3xl text-gray-800 italic mx-4">Figma</span>
+      <div className="animate-slidein700 opacity-0">
+        <div className="bg-[#BEFF6B] w-[110%] relative right-2 flex items-center overflow-x-hidden rotate-3">
+          <div className="py-4 animate-marquee whitespace-nowrap">
+            <span className="text-3xl text-gray-800 italic mx-4">
+              Frontend Development
+            </span>
+            <span className="text-3xl text-gray-800 font-black mx-4">
+              UI Design
+            </span>
+            <span className="text-3xl text-gray-800 italic mx-4">Figma</span>
+          </div>
+
+          <div className="absolute top-0 py-4 animate-marquee2 whitespace-nowrap">
+            <span className="text-3xl text-gray-800 font-black mx-4">
+              Frontend Development
+            </span>
+            <span className="text-3xl text-gray-800 italic mx-4">
+              UI Design
+            </span>
+            <span className="text-3xl text-gray-800 mx-4">Figma</span>
+          </div>
+
+          <div className="relative top-0 py-4 animate-marquee2 whitespace-nowrap">
+            <span className="text-3xl text-gray-800 font-black mx-4">
+              Frontend Development
+            </span>
+            <span className="text-3xl text-gray-800 italic mx-4">
+              UI Design
+            </span>
+            <span className="text-3xl text-gray-800 mx-4">Figma</span>
+          </div>
         </div>
 
-        <div className="absolute top-0 py-4 animate-marquee2 whitespace-nowrap">
-          <span className="text-3xl text-gray-800 font-black mx-4">
-            Frontend Development
-          </span>
-          <span className="text-3xl text-gray-800 italic mx-4">UI Design</span>
-          <span className="text-3xl text-gray-800 mx-4">Figma</span>
-        </div>
+        <div className="bg-[#2C3BFF] w-[110%] relative right-2 flex items-center overflow-x-hidden -rotate-6">
+          <div className="py-4 animate-marquee whitespace-nowrap">
+            <span className="text-3xl text-white italic mx-4">
+              Frontend Development
+            </span>
+            <span className="text-3xl text-white font-black mx-4">
+              UI Design
+            </span>
+            <span className="text-3xl text-white italic mx-4">Figma</span>
+          </div>
 
-        <div className="relative top-0 py-4 animate-marquee2 whitespace-nowrap">
-          <span className="text-3xl text-gray-800 font-black mx-4">
-            Frontend Development
-          </span>
-          <span className="text-3xl text-gray-800 italic mx-4">UI Design</span>
-          <span className="text-3xl text-gray-800 mx-4">Figma</span>
-        </div>
-      </div>
+          <div className="absolute top-0 py-4 animate-marquee2 whitespace-nowrap">
+            <span className="text-3xl text-white font-black mx-4">
+              Frontend Development
+            </span>
+            <span className="text-3xl text-white italic mx-4">UI Design</span>
+            <span className="text-3xl text-white mx-4">Figma</span>
+          </div>
 
-      <div className="bg-[#2C3BFF] w-[110%] relative right-2 flex items-center overflow-x-hidden -rotate-6">
-        <div className="py-4 animate-marquee whitespace-nowrap">
-          <span className="text-3xl text-white italic mx-4">
-            Frontend Development
-          </span>
-          <span className="text-3xl text-white font-black mx-4">UI Design</span>
-          <span className="text-3xl text-white italic mx-4">Figma</span>
-        </div>
-
-        <div className="absolute top-0 py-4 animate-marquee2 whitespace-nowrap">
-          <span className="text-3xl text-white font-black mx-4">
-            Frontend Development
-          </span>
-          <span className="text-3xl text-white italic mx-4">UI Design</span>
-          <span className="text-3xl text-white mx-4">Figma</span>
-        </div>
-
-        <div className="relative top-0 py-4 animate-marquee2 whitespace-nowrap">
-          <span className="text-3xl text-white font-black mx-4">
-            Frontend Development
-          </span>
-          <span className="text-3xl text-white italic mx-4">UI Design</span>
-          <span className="text-3xl text-white mx-4">Figma</span>
+          <div className="relative top-0 py-4 animate-marquee2 whitespace-nowrap">
+            <span className="text-3xl text-white font-black mx-4">
+              Frontend Development
+            </span>
+            <span className="text-3xl text-white italic mx-4">UI Design</span>
+            <span className="text-3xl text-white mx-4">Figma</span>
+          </div>
         </div>
       </div>
     </div>
