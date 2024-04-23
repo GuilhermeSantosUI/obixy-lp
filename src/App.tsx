@@ -1,6 +1,6 @@
 export function App() {
   return (
-    <div className="w-full relative">
+    <div className="w-full relative overflow-x-hidden">
       <header className="container flex justify-between py-8">
         <svg
           width="117"
@@ -53,7 +53,8 @@ export function App() {
       <div className="container h-[60vh] flex flex-col items-start gap-16 mt-10">
         <div className="flex items-center gap-24">
           <div className="text-8xl text-white">
-            Esse texto de finalização deve ser um CTA
+            Criada para <span className="italic">encurtar</span> o{' '}
+            <span className="font-black">Processo</span>!
           </div>
 
           <div className="text-white">
@@ -63,14 +64,12 @@ export function App() {
           </div>
         </div>
 
-        <div className="px-8 py-4 bg-[#2C3BFF] rounded-2xl flex-col justify-center items-center gap-2.5 inline-flex">
-          <div className="text-white text-base font-normal">
-            Quero ter um site foda também!
-          </div>
-        </div>
+        <button className="px-8 py-4 bg-[#2C3BFF] rounded-2xl flex-col justify-center items-center gap-2.5 inline-flex text-white text-base font-normal">
+          Quero ter um site foda também!
+        </button>
       </div>
 
-      <div className="bg-[#BEFF6B] relative flex items-center overflow-x-hidden rotate-3">
+      <div className="bg-[#BEFF6B] w-[110%] relative right-2 flex items-center overflow-x-hidden rotate-3">
         <div className="py-4 animate-marquee whitespace-nowrap">
           <span className="text-3xl text-gray-800 italic mx-4">
             Frontend Development
@@ -98,7 +97,7 @@ export function App() {
         </div>
       </div>
 
-      <div className="bg-[#2C3BFF] relative flex items-center overflow-x-hidden -rotate-6">
+      <div className="bg-[#2C3BFF] w-[110%] relative right-2 flex items-center overflow-x-hidden -rotate-6">
         <div className="py-4 animate-marquee whitespace-nowrap">
           <span className="text-3xl text-white italic mx-4">
             Frontend Development
