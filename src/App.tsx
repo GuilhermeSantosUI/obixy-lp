@@ -1,6 +1,6 @@
 export function App() {
   return (
-    <div className="w-full relative overflow-x-hidden">
+    <div className="w-full h-full relative overflow-x-hidden">
       <header className="animate-slidein300 opacity-0 container flex justify-between py-8">
         <svg
           width="117"
