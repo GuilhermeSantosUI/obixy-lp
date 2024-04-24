@@ -54,7 +54,7 @@ export function App() {
         <div className="animate-slidein500 opacity-0 container h-[60vh] flex flex-col items-start gap-16 mt-10">
           <div className="flex items-center gap-24">
             <div className="text-8xl text-white">
-              Criada para{' '}
+              Feita para{' '}
               <span className="animate-crumpleafter italic">encurtar</span> o{' '}
               <span className="font-black">Processo</span>!
             </div>
