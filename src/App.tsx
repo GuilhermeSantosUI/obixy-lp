@@ -40,16 +40,13 @@ export function App() {
               Início
             </a>
             <a href="#" className="text-white">
-              Equipe
+              Quem Somos
             </a>
             <a href="#" className="text-white">
-              Produtos
+              Portifólio
             </a>
             <a href="#" className="text-white">
-              Serviços
-            </a>
-            <a href="#" className="text-white">
-              Sobre nós
+              Contato
             </a>
           </div>
         </header>
