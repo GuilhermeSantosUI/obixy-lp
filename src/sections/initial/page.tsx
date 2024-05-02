@@ -2,7 +2,7 @@ import bgImg from '../../assets/bg-image.png';
 
 export function InitialPage() {
   return (
-    <div className="relative">
+    <div className="relative h-screen">
       <header className="animate-slidein300 opacity-0 container flex justify-between py-8">
         <svg
           width="117"
