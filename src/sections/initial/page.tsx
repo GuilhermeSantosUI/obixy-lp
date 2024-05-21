@@ -63,8 +63,8 @@ export function InitialPage() {
             alt=""
             className="w-92 absolute"
             style={{
-              left: '28rem',
-              top: '-18rem',
+              right: '2rem',
+              top: '-2rem',
             }}
           />
         </div>
