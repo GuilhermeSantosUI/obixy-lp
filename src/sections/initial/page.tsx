@@ -1,8 +1,9 @@
+import { Link } from 'react-router-dom';
 import bgImg from '../../assets/bg-image.png';
 
 export function InitialPage() {
   return (
-    <div className="relative h-screen">
+    <div className="relative">
       <header className="animate-slidein300 opacity-0 container flex justify-between py-8">
         <svg
           width="117"
@@ -33,20 +34,20 @@ export function InitialPage() {
           />
         </svg>
 
-        <div className="flex items-center gap-6">
+        {/* <div className="flex items-center gap-6">
           <a href="#" className="text-white">
             Início
           </a>
-          <a href="#" className="text-white">
+          <Link to="/quem-somos" className="text-white">
             Quem Somos
-          </a>
+          </Link>
           <a href="#" className="text-white">
             Portifólio
           </a>
           <a href="#" className="text-white">
             Contato
           </a>
-        </div>
+        </div> */}
       </header>
 
       <div className="animate-slidein500 opacity-0 relative container w-screen h-[60vh] flex flex-col items-start gap-16 mt-10">
@@ -132,6 +133,44 @@ export function InitialPage() {
             </span>
             <span className="text-3xl text-white italic mx-4">UI Design</span>
             <span className="text-3xl text-white mx-4">Figma</span>
+          </div>
+        </div>
+      </div>
+
+      <div className="pt-32">
+        <div className="w-full h-screen border-white p-24 flex flex-col justify-between">
+          <h1 className="text-8xl text-white font-bold">
+            Um escritório digital especializado em{' '}
+            <span className="text-[#2C3BFF]">Design</span>.
+          </h1>
+
+          <div className="flex items-center justify-between">
+            <Link to="/" className="text-white hover:underline">
+              <h1 className="text-3xl">Guilherme Santos</h1>
+              <p className="text-2xl">Co-fundador e Software Engineer</p>
+
+              <br />
+
+              <p>Estudante da Universidade Tiradentes</p>
+            </Link>
+
+            <Link to="/" className="text-white hover:underline">
+              <h1 className="text-3xl">Breno Barbosa</h1>
+              <p className="text-2xl">Participante</p>
+
+              <br />
+
+              <p>Estudante da Universidade Tiradentes</p>
+            </Link>
+
+            <Link to="/" className="text-white hover:underline">
+              <h1 className="text-3xl">Douglas Gabriel</h1>
+              <p className="text-2xl">Participante</p>
+
+              <br />
+
+              <p>Estudante da Universidade Tiradentes</p>
+            </Link>
           </div>
         </div>
       </div>

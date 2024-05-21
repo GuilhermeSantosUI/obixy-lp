@@ -8,7 +8,7 @@ function Routes() {
     <RRDRoutes>
       <Route path="/" element={<Navigate replace to="main-page" />} />
       <Route path="/main-page" element={<InitialPage />} />
-      <Route path="/sobre-nos" element={<WhoWeAre />} />
+      <Route path="/quem-somos" element={<WhoWeAre />} />
     </RRDRoutes>
   );
 }
