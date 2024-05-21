@@ -1,9 +1,9 @@
-import { InitialPage } from './sections/initial/page';
+import Routes from './router';
 
 export function App() {
   return (
     <div className="w-full overflow-hidden">
-      <InitialPage />
+      <Routes />
     </div>
   );
 }
